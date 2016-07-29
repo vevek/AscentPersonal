@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0306499427DD155AF035AE24 /* Pods_AscentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D04824F9EE6DA90F2FBF76 /* Pods_AscentUITests.framework */; };
+		43376DF476C13ABDDA4AC834 /* Pods_AscentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF19936BC02EC224178D2BB /* Pods_AscentTests.framework */; };
+		635F3F001D349321005C3EF0 /* Alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 635F3EFF1D349321005C3EF0 /* Alarm.mp3 */; };
 		6373A7341D2E8931008E1794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6373A7331D2E8931008E1794 /* AppDelegate.swift */; };
-		6373A7361D2E8931008E1794 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6373A7351D2E8931008E1794 /* ViewController.swift */; };
+		6373A7361D2E8931008E1794 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6373A7351D2E8931008E1794 /* HomeViewController.swift */; };
 		6373A7391D2E8931008E1794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6373A7371D2E8931008E1794 /* Main.storyboard */; };
 		6373A73C1D2E8931008E1794 /* Ascent.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6373A73A1D2E8931008E1794 /* Ascent.xcdatamodeld */; };
 		6373A73E1D2E8931008E1794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6373A73D1D2E8931008E1794 /* Assets.xcassets */; };
 		6373A7411D2E8931008E1794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6373A73F1D2E8931008E1794 /* LaunchScreen.storyboard */; };
 		6373A74C1D2E8931008E1794 /* AscentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6373A74B1D2E8931008E1794 /* AscentTests.swift */; };
 		6373A7571D2E8931008E1794 /* AscentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6373A7561D2E8931008E1794 /* AscentUITests.swift */; };
+		6373A7651D2E8954008E1794 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6373A7641D2E8954008E1794 /* File.swift */; };
+		638420871D2E922900117691 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638420861D2E922900117691 /* AboutViewController.swift */; };
+		6384208B1D2E926200117691 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6384208A1D2E926200117691 /* SettingsViewController.swift */; };
+		63A3E9D61D3510B900AC4BE2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63A3E9D51D3510B900AC4BE2 /* GoogleService-Info.plist */; };
+		A42286E28A57EA50B4DD1EF3 /* Pods_Ascent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DCF3D960A4B62A37092DF08 /* Pods_Ascent.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11124BFC9B1C7779301FE8CC /* Pods-AscentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AscentUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AscentUITests/Pods-AscentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2F84C54EEBAB12E081379CC7 /* Pods-Ascent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ascent.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ascent/Pods-Ascent.release.xcconfig"; sourceTree = "<group>"; };
+		45D04824F9EE6DA90F2FBF76 /* Pods_AscentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AscentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DCF3D960A4B62A37092DF08 /* Pods_Ascent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ascent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBA01CE46CFE2C4885F73A5 /* Pods-Ascent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ascent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ascent/Pods-Ascent.debug.xcconfig"; sourceTree = "<group>"; };
+		635F3EFF1D349321005C3EF0 /* Alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm.mp3; sourceTree = "<group>"; };
 		6373A7301D2E8931008E1794 /* Ascent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ascent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6373A7331D2E8931008E1794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6373A7351D2E8931008E1794 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6373A7351D2E8931008E1794 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		6373A7381D2E8931008E1794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6373A73B1D2E8931008E1794 /* Ascent.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ascent.xcdatamodel; sourceTree = "<group>"; };
 		6373A73D1D2E8931008E1794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +63,14 @@
 		6373A7521D2E8931008E1794 /* AscentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AscentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6373A7561D2E8931008E1794 /* AscentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AscentUITests.swift; sourceTree = "<group>"; };
 		6373A7581D2E8931008E1794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6373A7641D2E8954008E1794 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		638420861D2E922900117691 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		6384208A1D2E926200117691 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		63A3E9D51D3510B900AC4BE2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		77A552DE323F89201488E67B /* Pods-AscentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AscentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AscentTests/Pods-AscentTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAF19936BC02EC224178D2BB /* Pods_AscentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AscentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0BC5868B4A7F7E51F038589 /* Pods-AscentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AscentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AscentTests/Pods-AscentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1660DE98F596C39E1F47C5F /* Pods-AscentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AscentUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AscentUITests/Pods-AscentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A42286E28A57EA50B4DD1EF3 /* Pods_Ascent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43376DF476C13ABDDA4AC834 /* Pods_AscentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0306499427DD155AF035AE24 /* Pods_AscentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A83FEE63CF4C4F0E727CE3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DCF3D960A4B62A37092DF08 /* Pods_Ascent.framework */,
+				CAF19936BC02EC224178D2BB /* Pods_AscentTests.framework */,
+				45D04824F9EE6DA90F2FBF76 /* Pods_AscentUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6373A7271D2E8930008E1794 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +118,8 @@
 				6373A74A1D2E8931008E1794 /* AscentTests */,
 				6373A7551D2E8931008E1794 /* AscentUITests */,
 				6373A7311D2E8931008E1794 /* Products */,
+				A4EA8D1C2E9B4B435917B0F2 /* Pods */,
+				1A83FEE63CF4C4F0E727CE3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,11 +137,16 @@
 			isa = PBXGroup;
 			children = (
 				6373A7331D2E8931008E1794 /* AppDelegate.swift */,
-				6373A7351D2E8931008E1794 /* ViewController.swift */,
+				6384208A1D2E926200117691 /* SettingsViewController.swift */,
+				6373A7351D2E8931008E1794 /* HomeViewController.swift */,
+				638420861D2E922900117691 /* AboutViewController.swift */,
+				635F3EFF1D349321005C3EF0 /* Alarm.mp3 */,
+				6373A7641D2E8954008E1794 /* File.swift */,
 				6373A7371D2E8931008E1794 /* Main.storyboard */,
 				6373A73D1D2E8931008E1794 /* Assets.xcassets */,
 				6373A73F1D2E8931008E1794 /* LaunchScreen.storyboard */,
 				6373A7421D2E8931008E1794 /* Info.plist */,
+				63A3E9D51D3510B900AC4BE2 /* GoogleService-Info.plist */,
 				6373A73A1D2E8931008E1794 /* Ascent.xcdatamodeld */,
 			);
 			path = Ascent;
@@ -128,6 +170,19 @@
 			path = AscentUITests;
 			sourceTree = "<group>";
 		};
+		A4EA8D1C2E9B4B435917B0F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DBA01CE46CFE2C4885F73A5 /* Pods-Ascent.debug.xcconfig */,
+				2F84C54EEBAB12E081379CC7 /* Pods-Ascent.release.xcconfig */,
+				F0BC5868B4A7F7E51F038589 /* Pods-AscentTests.debug.xcconfig */,
+				77A552DE323F89201488E67B /* Pods-AscentTests.release.xcconfig */,
+				F1660DE98F596C39E1F47C5F /* Pods-AscentUITests.debug.xcconfig */,
+				11124BFC9B1C7779301FE8CC /* Pods-AscentUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6373A75B1D2E8931008E1794 /* Build configuration list for PBXNativeTarget "Ascent" */;
 			buildPhases = (
+				0B52108A481C9C3CD10D2FCD /* [CP] Check Pods Manifest.lock */,
 				6373A72C1D2E8931008E1794 /* Sources */,
 				6373A72D1D2E8931008E1794 /* Frameworks */,
 				6373A72E1D2E8931008E1794 /* Resources */,
+				3E36F7C5E96A2775CEBAF155 /* [CP] Embed Pods Frameworks */,
+				09155E4AE8D38B4E571EA8D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6373A75E1D2E8931008E1794 /* Build configuration list for PBXNativeTarget "AscentTests" */;
 			buildPhases = (
+				76672DC5A685AF7B5FAC040B /* [CP] Check Pods Manifest.lock */,
 				6373A7431D2E8931008E1794 /* Sources */,
 				6373A7441D2E8931008E1794 /* Frameworks */,
 				6373A7451D2E8931008E1794 /* Resources */,
+				939D25EF4AA532238F50EA31 /* [CP] Embed Pods Frameworks */,
+				636D5E3DA546B0F7B6D271C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6373A7611D2E8931008E1794 /* Build configuration list for PBXNativeTarget "AscentUITests" */;
 			buildPhases = (
+				F0E7599FA1AEEA9BCBBB2C25 /* [CP] Check Pods Manifest.lock */,
 				6373A74E1D2E8931008E1794 /* Sources */,
 				6373A74F1D2E8931008E1794 /* Frameworks */,
 				6373A7501D2E8931008E1794 /* Resources */,
+				116555F26F2F3AEE861E1C6A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,7 +304,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				635F3F001D349321005C3EF0 /* Alarm.mp3 in Resources */,
 				6373A7411D2E8931008E1794 /* LaunchScreen.storyboard in Resources */,
+				63A3E9D61D3510B900AC4BE2 /* GoogleService-Info.plist in Resources */,
 				6373A73E1D2E8931008E1794 /* Assets.xcassets in Resources */,
 				6373A7391D2E8931008E1794 /* Main.storyboard in Resources */,
 			);
@@ -263,14 +328,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09155E4AE8D38B4E571EA8D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ascent/Pods-Ascent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B52108A481C9C3CD10D2FCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		116555F26F2F3AEE861E1C6A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AscentUITests/Pods-AscentUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E36F7C5E96A2775CEBAF155 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ascent/Pods-Ascent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		636D5E3DA546B0F7B6D271C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AscentTests/Pods-AscentTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76672DC5A685AF7B5FAC040B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		939D25EF4AA532238F50EA31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AscentTests/Pods-AscentTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0E7599FA1AEEA9BCBBB2C25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6373A72C1D2E8931008E1794 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6373A7361D2E8931008E1794 /* ViewController.swift in Sources */,
+				638420871D2E922900117691 /* AboutViewController.swift in Sources */,
+				6373A7361D2E8931008E1794 /* HomeViewController.swift in Sources */,
+				6373A7651D2E8954008E1794 /* File.swift in Sources */,
 				6373A73C1D2E8931008E1794 /* Ascent.xcdatamodeld in Sources */,
 				6373A7341D2E8931008E1794 /* AppDelegate.swift in Sources */,
+				6384208B1D2E926200117691 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,9 +607,11 @@
 		};
 		6373A75C1D2E8931008E1794 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DBA01CE46CFE2C4885F73A5 /* Pods-Ascent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Ascent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vevekselvam.Ascent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,9 +621,11 @@
 		};
 		6373A75D1D2E8931008E1794 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F84C54EEBAB12E081379CC7 /* Pods-Ascent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Ascent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vevekselvam.Ascent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,9 +635,11 @@
 		};
 		6373A75F1D2E8931008E1794 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0BC5868B4A7F7E51F038589 /* Pods-AscentTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AscentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vevekselvam.AscentTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -453,9 +650,11 @@
 		};
 		6373A7601D2E8931008E1794 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A552DE323F89201488E67B /* Pods-AscentTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AscentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vevekselvam.AscentTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -466,8 +665,10 @@
 		};
 		6373A7621D2E8931008E1794 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1660DE98F596C39E1F47C5F /* Pods-AscentUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = AscentUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vevekselvam.AscentUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -478,8 +679,10 @@
 		};
 		6373A7631D2E8931008E1794 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11124BFC9B1C7779301FE8CC /* Pods-AscentUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = AscentUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vevekselvam.AscentUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +710,7 @@
 				6373A75D1D2E8931008E1794 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6373A75E1D2E8931008E1794 /* Build configuration list for PBXNativeTarget "AscentTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +719,7 @@
 				6373A7601D2E8931008E1794 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6373A7611D2E8931008E1794 /* Build configuration list for PBXNativeTarget "AscentUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +728,7 @@
 				6373A7631D2E8931008E1794 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
